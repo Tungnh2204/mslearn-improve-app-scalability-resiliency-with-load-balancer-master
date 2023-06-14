@@ -60,7 +60,7 @@ for i in 1 2 3; do
     az vm create \
         --admin-username azureuser \
         --resource-group $RgName \
-        --name TungVM$i \
+        --name Tung-04-Web-VM$i \
         --nics TungwebNic$i \
         --image UbuntuLTS \
         --availability-set portalAvailabilitySet \
